@@ -1,0 +1,94 @@
+.main-box-bio {
+    display: flex;
+    background-color: var(--main-text-color1);
+    color: var(--main-text-color2);
+}
+
+.year-bold {
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--main-text-color1);
+    color: var(--main-text-color2);
+    font-family: var(--main-font);
+}
+
+.svg-icon {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.svg-icon path {
+    fill: var(--main-text-color1);
+}
+
+.svg-icon:hover path {
+    fill: var(--main-text-color2);
+}
+
+.main-box-bio {
+    margin-top: var(--main-nav-height);
+}
+
+@media screen and (min-width: 500px) {
+    .pic-for-biography {
+        width: 30%;
+        height: fit-content;
+        padding: 0 5% 0 10%;
+    }
+    
+    .main-box-bio {
+        padding: 3%;
+        font-size: 1.5em;
+        min-height: 90vh;
+    }
+    
+    .main-content-container {
+        display: flex;
+    }
+    
+    .list-of-exhibitions {
+        width: 60%;
+        padding-left: 2%;
+    }    
+}
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    .pic-for-biography {
+        width: 40%;
+        height: fit-content;
+        padding: 0;
+        padding-left: 2%;
+        padding-top: 5%;
+    }
+
+    .main-box-bio {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pic-for-biography {
+        width: 100%;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .main-box-bio {
+        flex-direction: column;
+    }
+        
+    .main-box-bio h1,
+    .main-box-bio p {
+        padding-left: 2%;
+    }    
+}
+
+.all-content-container {
+    background-color: var(--main-text-color1);
+    color: var(--main-text-color2);
+}

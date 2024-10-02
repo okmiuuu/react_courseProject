@@ -1,0 +1,18 @@
+:root {
+    --main-nav-height: 10vh;
+    --main-font: 'Poiret One';
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.iraida-colors {
+    --main-color: #4498AD;
+    --main-text-color1: #D6E1DC;
+    --main-text-color2: #2B2E53;
+}
+
+.genadz-colors {
+    --main-color: #8E8964;
+    --main-text-color1: #2B2E53;
+    --main-text-color2: #D6E1DC;
+}
